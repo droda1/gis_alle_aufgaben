@@ -1,0 +1,117 @@
+
+body{
+	-webkit-user-select: none;
+	background: cover;
+	font-family: 'Poppins';
+	background: #aadddd;
+	background: -moz-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+	background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+	background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+	text-align: center;
+}
+/* Nav-Bar*/
+
+.navbar {
+	position:relative;
+	right:16px;
+	width:100%;
+	height: 50px;
+	padding: 10px;
+	margin-top: 60px;
+ 	font-weight: bold;
+ 	font-size: 20px;
+}
+#abc{
+	margin-top:100px;
+	padding: 15px 25px;
+	cursor: pointer;
+	border-radius : 10px;
+	text-decoration: none;
+}
+#abc:hover {
+	background-color: #008855;
+	border-radius : 20px;
+}
+
+#abc:active {
+  background-color: #3e8e41;
+  opacity: 0.5;
+}
+
+
+/* Picture*/
+.pic 	{position:relative;	
+	margin:auto;
+	display:block;
+	width:100%;
+	height:auto;
+	max-width:600px;
+	max-height:600px;
+}
+.pic:hover{
+	filter: sepia();
+	transform: scale(1.03);
+
+}
+.pic:active{
+animation-name:orbit;
+animation-duration: 4s;
+}
+#hfulogo img{position: fixed;
+	top:20px;
+	left:1400px;
+
+	width:400px;
+}
+#kursiv{
+	font-style:italic
+}
+#bolds{
+	font-weight: bold;
+}
+#underline{
+	text-decoration: underline;
+}
+#hov{
+	padding: 2px;
+}
+#hov:hover{
+	background-color: #008855;
+	border-radius : 20px;
+
+}
+#act{
+	padding:2px;
+	cursor: help;
+}
+#act:hover{
+	background-color: #008855;
+	border-radius : 20px;
+}
+#act:active{
+	background-color: #3e8e41;
+  opacity: 0.5;
+
+}
+#demo{
+	font-size:20px;
+}
+
+/* KEYFRAMES*/
+
+@keyframes orbit { 
+  from { 
+    transform: rotate(0) 
+  } 
+  to { 
+    transform: rotate(360deg) 
+  } 
+}
+@media only screen and(max width: 340px){
+	body{
+		font-size: 10px;
+	}
+	.navbar{
+		padding: 10px 20px;
+	}
+}
