@@ -1,0 +1,123 @@
+#content{
+    
+    color: white;
+    text-align: center;
+    margin-top: 40px ;
+}
+body{
+    background: linear-gradient(135deg, red, blue);
+    background-size: 100% 150%;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+h1{ position:relative;
+    top: 25px;
+    text-align:center;
+    Color:white;
+}
+.regler {
+    position: relative;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+}
+.container{
+    margin-top:100px;
+}
+#vOut{
+    
+    color:white;
+    position: absolute;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#dOut{
+    color:white;
+    position: absolute;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#tOut{
+    color:white;
+    position: absolute;
+    font-size: 20px;
+    margin-left: 25px;
+}
+input[type=range]{
+  width:30%;
+  height:20px;
+  background-color : yellowgreen;
+  opacity:0.6;
+  border-radius: 20px;
+  transition: opacity 0.3s;
+  -webkit-appearance: none;
+}
+
+input[type=range]:hover{
+    opacity: 1;
+}
+.white {
+    margin-left:   42%;
+}
+.black1{
+    position: relative;
+    margin-left:  42%;
+    bottom: 215px;
+    left: 25px;
+   
+}
+.black2{
+    position: relative;
+    margin-left:  42%;
+    bottom: 347px;
+    left: 155px;
+   
+}
+.black1 button{
+	background: -webkit-linear-gradient(top, rgb(43, 41, 41), rgb(20, 20, 20)); 
+    background: -moz-linear-gradient(top, rgb(43, 41, 41),rgb(20, 20, 20)); 
+    background: -ms-linear-gradient(top, rgb(43, 41, 41), rgb(20, 20, 20)); 
+	color: white;
+    border: 1px solid black;
+    padding: 65px 20px;
+    border-radius: 2px;
+    outline: none;
+
+}
+.black2 button{
+	background: -webkit-linear-gradient(top, rgb(43, 41, 41), rgb(20, 20, 20)); 
+    background: -moz-linear-gradient(top, rgb(43, 41, 41),rgb(20, 20, 20)); 
+    background: -ms-linear-gradient(top, rgb(43, 41, 41), rgb(20, 20, 20)); 
+	color: white;
+    border: 1px solid black;
+    padding: 65px 20px;
+    border-radius: 2px;
+    outline: none;
+
+}
+.white button{
+    margin-top: 10%;
+    position: relative;
+    overflow:hidden;
+	background: -webkit-linear-gradient(top, #DD4B39, #D14836); 
+    background: -moz-linear-gradient(top, #DD4B39, #D14836); 
+    background: -ms-linear-gradient(top, #DD4B39, #D14836); 
+	text-shadow: 0 1px 0 #C04131;
+	color: white;
+    border: 1px solid black;
+    padding: 80px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+}
+button:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+button:active {
+    background-color: white;
+    box-shadow: 0 5px rgb(39, 38, 38);
+    transform: translateY(1px);
+  }

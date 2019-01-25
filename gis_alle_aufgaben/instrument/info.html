@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <title>A6</title>
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" type = "text/css" href="css/style.css">
+</head>
+
+    <body >
+        <h1> Pianissimo </h1>
+        <div class="container">
+        <div class="white"> 
+        <button  id ="button1" onclick= 'play_c();'></button>
+        <button  onclick ='play_d();'></button>
+        <button  onclick ='play_e();'></button>
+        <button  onclick ='play_f();'></button>
+        <button  onclick ='play_g();'></button>
+        <button  onclick ='play_a();'></button>
+        <button  onclick ='play_b();'></button>
+        </div>
+        </div>
+        <div class="black1">
+        <button  onclick ='play_cis();'></button>
+        <button  onclick ='play_dis();'></button>
+        </div>
+        <div class="black2">
+        <button  onclick ='play_fis();'></button>
+        <button  onclick ='play_gis();'></button>
+        <button  onclick ='play_ais();'></button>
+        </div>
+        </div>
+        <div class="regler">
+        <input type="range" id="tIn" min="0" max="3" oninput="show()" />
+            <span id="tOut"></span><br>
+        <input type="range" id="vIn" min="0" max="100" oninput="show()" />
+            <span id="vOut"></span><br>
+        <input type="range" id="dIn" min="1" max="5000" oninput="show()" />
+            <span id="dOut"></span>
+        </div>
+        <div id="content">
+            <a>Mithilfe der Regler lassen sich Tontyp, Lautstärke und die Dauer der Töne anpassen.</a> 
+            <p>Dieses Projekt ist im Rahmen der Veranstaltung Grundlagen interaktiver Systeme bei Herrn Duffner entstanden</p>
+        </div>
+           
+        <script src="javas/javas.js"></script>
+        
+    </body>
+</html>

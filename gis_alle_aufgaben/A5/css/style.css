@@ -1,0 +1,98 @@
+
+
+body{
+  background:#1b1b2b;
+  padding:75px;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1{
+  color:#c0c0c0;
+  font-weight:100;
+}
+
+.menue{
+	position:relative;
+	bottom : 150px;
+	
+}
+.btn{
+
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; 
+  color: #1b1b1b;
+}
+
+.footer{
+  font-size:8px;
+  color:#fff;
+  clear:both;
+  display:block;
+  letter-spacing:5px;
+  border:1px solid #fff;
+  padding:5px;
+  text-decoration:none;
+  width:210px;
+  margin:auto;
+  margin-top:400px;
+}
+img{
+    width: 100%;
+	height: auto;
+	margin-left: 100%;
+}
+.picture {
+	position: absolute;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    max-height: 600px;
+}
+
+#eyes {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    max-height: 200px;
+    position: relative;
+    transition: filter 1s;
+}
+#nose {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    max-height: 200px;
+    position: relative;
+    transition: filter 1s;
+}
+#mouth {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    max-height: 200px;
+    position: relative;
+    transition: filter 1s;
+}
+#stack {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+body{
+	background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
